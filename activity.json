@@ -5,7 +5,7 @@
   "description": "CassandraDB Connection activity to insert records ",
   "version": "0.0.1",
   "title": "CassandraDBInsert",  
-   "ref": "github.com/dhire05/CassandraInsertRecord",
+   "ref": "github.com/dhire05/cassandrainsertrecord",
 
   "inputs":[
     {
