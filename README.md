@@ -68,7 +68,7 @@ The below example is to insert a record into CassandraDB
       "ClusterIP": "127.0.0.1",
       "Keyspace": "sample",
       "TableName": "employee",
-	  "InsertQuery": "INSERT INTO employee (empid , name, salary) VALUES (103, 'lmn', 4044.40)"          
+	  "InsertQuery": "INSERT INTO employee (empid , name, salary) VALUES (102, 'xyz', 5005)"          
     }
   }
 }

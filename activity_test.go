@@ -52,7 +52,7 @@ func TestEval(t *testing.T) {
 	tc.SetInput("ClusterIP", "127.0.0.1")
 	tc.SetInput("Keyspace", "sample")
 	tc.SetInput("TableName", "employee")
-	tc.SetInput("InsertQuery", "INSERT INTO employee (empid , name, salary) VALUES (103, 'lmn', 4044.40)")
+	tc.SetInput("InsertQuery", "INSERT INTO employee (empid , name, salary) VALUES (102, 'xyz', 5005)")
 
 	act.Eval(tc)
 

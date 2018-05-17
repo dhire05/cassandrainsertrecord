@@ -29,7 +29,7 @@
     {
       "name": "InsertQuery",
       "type": "string",
-      "value": "INSERT INTO employee (empid , name, salary) VALUES (103, 'lmn', 4044.40)",
+      "value": "INSERT INTO employee (empid , name, salary) VALUES (102, 'xyz', 5005)",
 	  "required": true
     }
   ],
