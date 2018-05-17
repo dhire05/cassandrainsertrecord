@@ -8,7 +8,7 @@ This activity allows you to Insert a record to a particular table from the Cassa
 ## Installation
 ### Flogo CLI
 ```bash
-flogo install github.com/dhire05/CassandraInsertRecord
+flogo install github.com/dhire05/cassandrainsertrecord
 ```
 
 ## Schema
@@ -63,7 +63,7 @@ The below example is to insert a record into CassandraDB
   "name": "CassandraDB connector",
   "description": "Insert record into CassandraDB",
   "activity": {
-    "ref": "github.com/dhire05/CassandraInsertRecord",
+    "ref": "github.com/dhire05/cassandrainsertrecord",
     "input": {
       "ClusterIP": "127.0.0.1",
       "Keyspace": "sample",
