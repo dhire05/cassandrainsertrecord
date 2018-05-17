@@ -82,7 +82,8 @@ func (a *MyActivity) Eval(context activity.Context) (done bool, err error) {
 
 	// Set the result as part of the context
 	context.SetOutput("result", "Record Inserted SuccessFully")
-
+	
+	fmt.Println("Record Inserted SuccessFully")
 	// Signal to the Flogo engine that the activity is completed
 	return true, nil
 }
